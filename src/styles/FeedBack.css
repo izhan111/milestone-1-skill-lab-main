@@ -1,0 +1,67 @@
+.feedback-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(240, 241, 233);
+  font-family: 'Poppins';
+  }
+  
+  .feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-form form input,
+  .feedback-form form textarea {
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 9px 5px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .feedback-form form textarea {
+    resize: none;
+    height: 50px;
+  }
+  
+  .feedback-form form button {
+    font-family: "Poppins";
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .feedback-form form button:hover {
+    background-color: #57d662;
+  }
+  
+  .feedback-form form select {
+    font-family: "Poppins";
+    width: 100%;
+    padding: 9px 5px;
+    margin: 1px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .error-message {
+    color: #e53935;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: #43a047;
+    text-align: center;
+  }
+  

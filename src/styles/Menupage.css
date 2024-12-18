@@ -1,0 +1,50 @@
+.menu-page {
+    padding: 20px;
+    font-family: Poppins;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfjVwMr7dNlesH27e5pAoTZaLHPPBN7TX42nZ9Dj_rteI-a84Su4rSSaxiXVHAhKMx_ss&usqp=CAU");
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .menu-item h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .menu-item p {
+    color: #555;
+  }
+  
+  .menu-item span {
+    color: #ff6347;
+    font-weight: bold;
+  }
+
+  .menu-item:hover {
+    background-color: #cbd0c7;
+  }

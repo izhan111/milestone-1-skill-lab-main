@@ -1,0 +1,50 @@
+.homepage {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url(https://tableo.com/wp-content/uploads/Restaurant-Stock-Images-e1699951587809.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 30px;
+  font-family: 'Poppins';
+}
+
+.welcome-section {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.featured-items,
+.promotions {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.menu-items,
+.promotion-items {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-item,
+.promotion-item {
+  border: 1px solid #d7e5bc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #d7e5bc;
+}
+
+.menu-item h3,
+.promotion-item h3 {
+  margin-top: 0;
+}
+
+.menu-item span {
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.homepage h2 {
+  color: #a3d499;
+}
